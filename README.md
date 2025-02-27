@@ -1,4 +1,4 @@
-# ER-Hospital-Visits-Analysis
+# 🏥ER-Hospital-Visits-Analysis
 
 This project serves as a practical exercise in data collection, cleaning, querying, and visualization. I initially started it to study trends in ER visits based on tourism. However, due to the inability to find reliable open data, I shifted the focus to hospital data. This change allowed me to practice and improve my skills in data collection, cleaning, and using SQL and Power BI.
 
