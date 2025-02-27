@@ -63,31 +63,47 @@ This section presents insights derived from the collected data. Note that some h
 ### 1️⃣ Total ER Visits by Hospital (2020 - 2023)
 
 - King Fahad Hospital recorded the highest number of ER visits (307K) in 2020, but data is missing for 2023.
-- Dammam Imam Abdulrahman Bin Faisal Hospital showed an increasing trend, reaching 76K visits in 2022 and 70K in 2023.  
-  📝 *Possible Interpretation*: Dammam Hospital’s rising numbers could indicate higher patient demand or better accessibility. Due to data gaps in later years, it’s difficult to analyze the full trend, meaning the real visit numbers could be higher than reported.
+- Dammam Imam Abdulrahman Bin Faisal Hospital showed an increasing trend, reaching 76K visits in 2022 and 70K in 2023.
+
+  📝 *Possible Interpretation*:
+- Dammam Hospital’s rising numbers could indicate higher patient demand or better accessibility.
+-  Due to data gaps in later years, it’s difficult to analyze the full trend, meaning the real visit numbers could be higher than reported.
 
 ### 2️⃣ ER Revisits by Hospital
 
 - King Fahad Hospital had the highest number of revisits (424K), indicating that many patients returned multiple times.
-- Dammam Hospital recorded 144K revisits, significantly lower but still notable.  
-  📝 *Possible Interpretation*: Frequent revisits could suggest chronic illness cases, recurring medical issues, or patients returning for follow-ups. King Fahad Hospital’s high revisit rate might indicate that it serves a higher number of critical or recurring cases compared to other hospitals. However, missing revisiting data complicates full interpretation.
+- Dammam Hospital recorded 144K revisits, significantly lower but still notable.
+  
+  📝 *Possible Interpretation*:
+- Frequent revisits could suggest chronic illness cases, recurring medical issues, or patients returning for follow-ups.
+- King Fahad Hospital’s high revisit rate might indicate that it serves a higher number of critical or recurring cases compared to other hospitals. However, missing revisiting data complicates full interpretation.
 
 ### 3️⃣ ER Visits by Gender
 
-- Female patients accounted for 568K visits, while male patients had 480K visits. The higher number of female visits was consistent across all hospitals.  
-  📝 *Possible Interpretation*: This could indicate that women are more proactive in seeking medical care. Potential explanations include maternal health visits, chronic conditions, or healthcare-seeking behavior differences.
+- Female patients accounted for 568K visits, while male patients had 480K visits. The higher number of female visits was consistent across all hospitals.
+  
+  📝 *Possible Interpretation*:
+- This could indicate that women are more proactive in seeking medical care.
+- Potential explanations include maternal health visits, chronic conditions, or healthcare-seeking behavior differences.
 
 ### 4️⃣ ER Visits by Age Group
 
 - Young Adults (~18-30) made up the largest group (29.65%).
 - Adults (~30-45) followed with 26.59%.
-- Elderly (~60+) accounted for 16.4%, while children had the lowest share (6.2%).  
-  📝 *Possible Interpretation*: Young adults leading ER visits might be linked to work stress, accidents, or lifestyle-related conditions. Elderly patients (16.4%) still form a significant portion, likely due to chronic illnesses or age-related health conditions. Lower ER visits for children (6.2%) could mean most pediatric cases are managed in specialized clinics rather than ERs.
+- Elderly (~60+) accounted for 16.4%, while children had the lowest share (6.2%).
+  
+  📝 *Possible Interpretation*:
+- Young adults leading ER visits might be linked to work stress, accidents, or lifestyle-related conditions.
+- Elderly patients (16.4%) still form a significant portion, likely due to chronic illnesses or age-related health conditions.
+- Lower ER visits for children (6.2%) could mean most pediatric cases are managed in specialized clinics rather than ERs.
 
 ### 5️⃣ Gender & Age Group Trends
 
-- Across all age groups, females consistently visited the ER more than males.  
-  📝 *Possible Interpretation*: This supports the trend that women may seek medical care more frequently than men. Young and middle-aged adult women may have higher medical care needs due to maternity, chronic illnesses, or increased health awareness.
+- Across all age groups, females consistently visited the ER more than males.
+  
+  📝 *Possible Interpretation*:
+- This supports the trend that women may seek medical care more frequently than men.
+-  Young and middle-aged adult women may have higher medical care needs due to maternity, chronic illnesses, or increased health awareness.
 
 ### 6️⃣ Data Limitations & Considerations
 
