@@ -1,15 +1,21 @@
-Methodology
-1️⃣ ASK: Defining the Problem
-Why do this project?
-The main goal of this analysis is to understand emergency room (ER) visit patterns across multiple hospitals. The key questions driving this project are:
-Which hospitals have the highest number of emergency visits?
-Which hospital has the most ER re-visits?
-Is there a trend in ER visits based on gender and age?
-Which age group visits the ER the most?
+Methodology  
+#1️⃣ ASK: Defining the Problem  
+Why do this project?  
+
+The main goal of this analysis is to understand emergency room (ER) visit patterns across multiple hospitals. The key questions driving 
+
+this project are:  
+-Which hospitals have the highest number of emergency visits?
+-Which hospital has the most ER re-visits?
+-Is there a trend in ER visits based on gender and age?
+-Which age group visits the ER the most?  
+
 Purpose of this Analysis
+
 This project serves as a statistical exploration of emergency hospital visits within MNGH hospitals. By analyzing available data, the goal is to identify patterns and trends in patient demographics, visit frequency, and hospital utilization. While the findings may not directly lead to actionable solutions due to data limitations, the project serves as a practical exercise in data collection, cleaning, querying, and visualization. 
 
-2️⃣ PREPARE: Data Collection
+#2️⃣ PREPARE: Data Collection
+
 What data is needed?
 To answer these questions, the following datasets were gathered from MNGH open data and Ministry of Health resources:
 | Type of Data                  | Source                 | Status   | Notes                      |
