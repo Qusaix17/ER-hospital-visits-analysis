@@ -60,7 +60,7 @@ To extract meaningful insights, SQL queries were used to analyze the cleaned dat
 
 This section presents insights derived from the collected data. Note that some hospital data is missing for later years, meaning a value of zero in the dataset does not indicate an actual absence of ER visits but rather a lack of available data.
 
-### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](PowerBI.md#Graph1.1)
+### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](PowerBI.md#Graph1.1) [Table 1.2](PowerBI.md#Table1.2)
 
 - King Fahad Hospital recorded the highest number of ER visits (307K) in 2020, but data is missing for 2023.
 - Dammam Imam Abdulrahman Bin Faisal Hospital showed an increasing trend, reaching 76K visits in 2022 and 70K in 2023.
@@ -69,7 +69,7 @@ This section presents insights derived from the collected data. Note that some h
 - Dammam Hospital’s rising numbers could indicate higher patient demand or better accessibility.
 -  Due to data gaps in later years, it’s difficult to analyze the full trend, meaning the real visit numbers could be higher than reported.
 
-### 2️⃣ ER Revisits by Hospital
+### 2️⃣ ER Revisits by Hospital [Table 3.1](PowerBI.md#Table3.1)
 
 - King Fahad Hospital had the highest number of revisits (424K), indicating that many patients returned multiple times.
 - Dammam Hospital recorded 144K revisits, significantly lower but still notable.
@@ -78,7 +78,7 @@ This section presents insights derived from the collected data. Note that some h
 - Frequent revisits could suggest chronic illness cases, recurring medical issues, or patients returning for follow-ups.
 - King Fahad Hospital’s high revisit rate might indicate that it serves a higher number of critical or recurring cases compared to other hospitals. However, missing revisiting data complicates full interpretation.
 
-### 3️⃣ ER Visits by Gender
+### 3️⃣ ER Visits by Gender [Pie Chart 2.1](PowerBI.md#Pie-chart.1)
 
 - Female patients accounted for 568K visits, while male patients had 480K visits. The higher number of female visits was consistent across all hospitals.
   
