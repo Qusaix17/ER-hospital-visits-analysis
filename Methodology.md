@@ -60,7 +60,7 @@ To extract meaningful insights, SQL queries were used to analyze the cleaned dat
 
 This section presents insights derived from the collected data. Note that some hospital data is missing for later years, meaning a value of zero in the dataset does not indicate an actual absence of ER visits but rather a lack of available data.
 
-### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](PowerBI.md#Graph1.1) [Table 1.2](PowerBI.md#Table1.2)
+### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](PowerBI.md#graph11) [Table 1.2](PowerBI.md#table12)
 
 - King Fahad Hospital recorded the highest number of ER visits (307K) in 2020, but data is missing for 2023.
 - Dammam Imam Abdulrahman Bin Faisal Hospital showed an increasing trend, reaching 76K visits in 2022 and 70K in 2023.
@@ -69,7 +69,7 @@ This section presents insights derived from the collected data. Note that some h
 - Dammam Hospital’s rising numbers could indicate higher patient demand or better accessibility.
 -  Due to data gaps in later years, it’s difficult to analyze the full trend, meaning the real visit numbers could be higher than reported.
 
-### 2️⃣ ER Revisits by Hospital [Table 3.1](PowerBI.md#Table31)
+### 2️⃣ ER Revisits by Hospital [Table 3.1](PowerBI.md#table31)
 
 - King Fahad Hospital had the highest number of revisits (424K), indicating that many patients returned multiple times.
 - Dammam Hospital recorded 144K revisits, significantly lower but still notable.
@@ -78,7 +78,7 @@ This section presents insights derived from the collected data. Note that some h
 - Frequent revisits could suggest chronic illness cases, recurring medical issues, or patients returning for follow-ups.
 - King Fahad Hospital’s high revisit rate might indicate that it serves a higher number of critical or recurring cases compared to other hospitals. However, missing revisiting data complicates full interpretation.
 
-### 3️⃣ ER Visits by Gender [Pie Chart 2.1](PowerBI.md#Pie-chart2.1)
+### 3️⃣ ER Visits by Gender [Pie Chart 2.1](PowerBI.md#pie-chart21)
 
 - Female patients accounted for 568K visits, while male patients had 480K visits. The higher number of female visits was consistent across all hospitals.
   
@@ -86,7 +86,7 @@ This section presents insights derived from the collected data. Note that some h
 - This could indicate that women are more proactive in seeking medical care.
 - Potential explanations include maternal health visits, chronic conditions, or healthcare-seeking behavior differences.
 
-### 4️⃣ ER Visits by Age Group [Pie Chart 4.1](PowerBI.md#Pie-chart4.1)
+### 4️⃣ ER Visits by Age Group [Pie Chart 4.1](PowerBI.md#pie-chart41)
 
 - Young Adults (~18-30) made up the largest group (29.65%).
 - Adults (~30-45) followed with 26.59%.
@@ -97,7 +97,7 @@ This section presents insights derived from the collected data. Note that some h
 - Elderly patients (16.4%) still form a significant portion, likely due to chronic illnesses or age-related health conditions.
 - Lower ER visits for children (6.2%) could mean most pediatric cases are managed in specialized clinics rather than ERs.
 
-### 5️⃣ Gender & Age Group Trends
+### 5️⃣ Gender & Age Group Trends [Graph 5.1](PowerBI.md#graph51)
 
 - Across all age groups, females consistently visited the ER more than males.
   
