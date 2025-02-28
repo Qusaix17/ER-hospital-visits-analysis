@@ -69,7 +69,7 @@ This section presents insights derived from the collected data. Note that some h
 - Dammam Hospital’s rising numbers could indicate higher patient demand or better accessibility.
 -  Due to data gaps in later years, it’s difficult to analyze the full trend, meaning the real visit numbers could be higher than reported.
 
-### 2️⃣ ER Revisits by Hospital [Table 3.1](PowerBI.md#Table3.1)
+### 2️⃣ ER Revisits by Hospital [Table 3.1](PowerBI.md#Table31)
 
 - King Fahad Hospital had the highest number of revisits (424K), indicating that many patients returned multiple times.
 - Dammam Hospital recorded 144K revisits, significantly lower but still notable.
