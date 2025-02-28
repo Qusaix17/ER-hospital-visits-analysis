@@ -86,8 +86,87 @@ SELECT                   -- start second subquery
 
 Patients revisist count was possible since each patient is assigned a serial number, which used to identify any revisits.
 
-## 
+## SQL query for visists by Gender
 
+```
+SELECT  FACILITY NAME, 
+        LOCATION,
+        COUNT(CASE WHEN GENDER = "Male" THEN 1 END) AS male,
+        COUNT( CASE WHEN GENDER = "Female" THEN 1 END) AS Female,
+        COUNT(GENDER) AS Total_visits_by_Gender 
+FROM hospital_data
+  GROUP BY FACILITY_NAME 
+  ORDER BY Total_visits_by_Gender DESC
+```
+
+- ``` COUNT(CASE WHEN GENDER = "Male" THEN 1 END) AS male, ``` to count 1 everytime the case is meant, and palced in *male* column
+- ``` COUNT( CASE WHEN GENDER = "Female" THEN 1 END) AS Female, ``` to count 1 everytime the case is meant, and palced in *female* column
+- ``` COUNT(GENDER) AS Total_visits_by_Gender ``` aimed to sum up the total number of both females and males
+- ``` GROUP BY FACILITY_NAME ``` to only include one time for each facility
+- ``` ORDER BY Total_visits_by_Gender DESC ``` to list by descending order.
+
+
+## SQL query to group ages into age groups by gender
+
+```
+WITH merged_ages AS (
+    SELECT FACILITY_NAME,
+           GENDER,
+           coalesce(AGE_Y, AGE_infant) AS AGE
+    FROM Hospital_data
+)
+
+SELECT FACILITY_NAME,
+       GENDER,
+       AGE,
+       CASE
+           WHEN AGE BETWEEN 1.0 AND 12.0 THEN 'Kids'
+           WHEN AGE BETWEEN 13.0 AND 18.0 THEN 'Teen'
+           WHEN AGE BETWEEN 19.0 AND 30.0 THEN 'Young_adults'
+           WHEN AGE BETWEEN 31.0 AND 45.0 THEN 'Adults'
+           WHEN AGE BETWEEN 46.0 AND 60.0 THEN 'Middle_age_adults'
+           WHEN AGE BETWEEN 61.0 AND 120.0 THEN 'Elderly'
+           ELSE 'Infants'
+       END AS age_group
+FROM merged_ages;
+```
+### First part (CTE)
+```
+WITH merged_ages AS (
+    SELECT FACILITY_NAME,
+           GENDER,
+           coalesce(AGE_Y, AGE_infant) AS AGE
+    FROM Hospital_data
+```
+- This part creates Common Table Expression (CTE) to merge both ages together in one column since theyre seperated into ```AGE_Y``` which are ages by year and ```AGE_INFANT``` which are ages under a year.
+
+### Second part ( Main query )
+```
+SELECT FACILITY_NAME,
+       GENDER,
+       AGE,
+       CASE
+           WHEN AGE BETWEEN 1.0 AND 12.0 THEN 'Kids'
+           WHEN AGE BETWEEN 13.0 AND 18.0 THEN 'Teen'
+           WHEN AGE BETWEEN 19.0 AND 30.0 THEN 'Young_adults'
+           WHEN AGE BETWEEN 31.0 AND 45.0 THEN 'Adults'
+           WHEN AGE BETWEEN 46.0 AND 60.0 THEN 'Middle_age_adults'
+           WHEN AGE BETWEEN 61.0 AND 120.0 THEN 'Elderly'
+           ELSE 'Infants'
+       END AS age_group
+FROM merged_ages;
+```
+- After merging both ages into one column, ```CASE``` statement is used to group each age into a specified group
+```
+CASE
+           WHEN AGE BETWEEN 1.0 AND 12.0 THEN 'Kids'
+           WHEN AGE BETWEEN 13.0 AND 18.0 THEN 'Teen'
+           WHEN AGE BETWEEN 19.0 AND 30.0 THEN 'Young_adults'
+           WHEN AGE BETWEEN 31.0 AND 45.0 THEN 'Adults'
+           WHEN AGE BETWEEN 46.0 AND 60.0 THEN 'Middle_age_adults'
+           WHEN AGE BETWEEN 61.0 AND 120.0 THEN 'Elderly'
+           ELSE 'Infants'
+``` 
 
   
 
