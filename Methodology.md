@@ -60,7 +60,7 @@ To extract meaningful insights, SQL queries were used to analyze the cleaned dat
 
 This section presents insights derived from the collected data. Note that some hospital data is missing for later years, meaning a value of zero in the dataset does not indicate an actual absence of ER visits but rather a lack of available data.
 
-### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](powerbi.md/total_hospital_visits_20_23)
+### 1️⃣ Total ER Visits by Hospital (2020 - 2023) [Graph 1.1](PowerBi.md/total_hospital_visits_20_23)
 
 - King Fahad Hospital recorded the highest number of ER visits (307K) in 2020, but data is missing for 2023.
 - Dammam Imam Abdulrahman Bin Faisal Hospital showed an increasing trend, reaching 76K visits in 2022 and 70K in 2023.
