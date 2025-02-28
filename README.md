@@ -28,7 +28,7 @@ Although the data I collected was limited and some were missing, I decided to pr
 
 - [Power BI](PowerBI.md)
 - [Methodology](Methodology.md)
-- [SQL Queries](SQLqueries.md)
+- [SQL Queries](SQL-Queries.md)
 
 ## Acknowledgements
 
