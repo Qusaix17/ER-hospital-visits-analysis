@@ -1,7 +1,7 @@
 # All Visulizations was created using PowerBI 
 
 ![total_hospital_visits_20_23](https://github.com/user-attachments/assets/55a35ded-5c50-45d0-93d9-47ee98b1769a)
-## Graph1.1
+## Graph1
 
 
 ## Findings :
@@ -12,7 +12,7 @@
 #
 ![total_visits_hospital_table](https://github.com/user-attachments/assets/e77274f2-aee8-459a-885e-0637e7697e74)
 
-## Table1.2
+## Table1
 
 ##  Findings : 
 - Year 2020 and 2021 recorded the hieghst hospital visits of all time, while 2022 and 2023 recorded less likely due to the missing data and not becuase of lack of actual ER visits.
@@ -20,7 +20,7 @@
 
 #
 ![gender_visits_piechart](https://github.com/user-attachments/assets/b620845e-259f-4705-be27-39f6d0c244f3)
-## Pie chart2.1
+## Pie chart1
 
 ## Findings :
 - Female patients accounted for 568K visits, while male patients had 480K visits.
@@ -28,7 +28,7 @@
 
 #
 ![total_hospital_revisits](https://github.com/user-attachments/assets/5037c578-fb5f-4e59-b444-0ca69d2d43a5)
-## Table3.1
+## Graph2
 
 ## Findings :
 - King Fahad Hospital had the highest number of revisits (424K), indicating that many patients returned multiple times.
@@ -37,7 +37,7 @@
 
 #
 ![age_group_piechart](https://github.com/user-attachments/assets/2afad892-6eac-42cb-a6b0-1ce9b18a46d5)
-## Pie chart4.1
+## Pie chart2
 
 ## Findings :
 - Young Adults (~18-30) made up the largest group (29.65%).
@@ -46,7 +46,7 @@
 
 #
 ![gender_age_group_visits](https://github.com/user-attachments/assets/84986e1d-d49e-4880-80b5-3004f4a2aafa)
-## Graph5.1
+## Graph3
 
 ## Findings : 
 - Across all age groups, females consistently visited the ER more than males.
@@ -54,7 +54,7 @@
 
 #
 ![top_age_group_visits](https://github.com/user-attachments/assets/3ced0ae0-d117-4d5c-b245-1bbf49b4977f)
-## Pie chart6.1
+## Pie chart3
 
 ## Findings :
 - Across all age groups and genders young adults made up (58.34%) the largest age group visiting the ER.
