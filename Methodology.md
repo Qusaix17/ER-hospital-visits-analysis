@@ -78,7 +78,7 @@ This section presents insights derived from the collected data. Note that some h
 - Frequent revisits could suggest chronic illness cases, recurring medical issues, or patients returning for follow-ups.
 - King Fahad Hospital’s high revisit rate might indicate that it serves a higher number of critical or recurring cases compared to other hospitals. However, missing revisiting data complicates full interpretation.
 
-### 3️⃣ ER Visits by Gender [Pie Chart 2.1](PowerBI.md#Pie-chart.1)
+### 3️⃣ ER Visits by Gender [Pie Chart 2.1](PowerBI.md#Pie-chart2.1)
 
 - Female patients accounted for 568K visits, while male patients had 480K visits. The higher number of female visits was consistent across all hospitals.
   
@@ -86,7 +86,7 @@ This section presents insights derived from the collected data. Note that some h
 - This could indicate that women are more proactive in seeking medical care.
 - Potential explanations include maternal health visits, chronic conditions, or healthcare-seeking behavior differences.
 
-### 4️⃣ ER Visits by Age Group
+### 4️⃣ ER Visits by Age Group [Pie Chart 4.1](PowerBI.md#Pie-chart4.1)
 
 - Young Adults (~18-30) made up the largest group (29.65%).
 - Adults (~30-45) followed with 26.59%.
